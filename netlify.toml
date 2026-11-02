@@ -1,0 +1,12 @@
+# Netlify settings. Cloudflare Pages and GitHub Pages ignore this file.
+# The folder is plain static files, so there is no build command.
+[build]
+  publish = "."
+
+# Same headers as _headers, kept here so Netlify applies them even if _headers is skipped.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "microphone=(self), camera=(), geolocation=()"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

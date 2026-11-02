@@ -1,0 +1,49 @@
+/* Crux Outdoor Co. brand tokens.
+   Derived from the Beta mascot illustration: red beanie, orange climbing rope,
+   cream Nordic sweater with navy pattern, alpine sky blue and conifer green. */
+:root {
+  /* core palette */
+  --crux-beanie-red: #d63a2b;     /* sale badges, alerts, mascot red */
+  --crux-rope-orange: #e5672b;    /* primary accent and calls to action */
+  --crux-wool-cream: #f6eddc;     /* warm page background */
+  --crux-wool-white: #fffaf0;     /* cards on cream */
+  --crux-knit-navy: #1f2f55;      /* headings, header, footer */
+  --crux-sky-blue: #2f8fd6;       /* links, info, voice call accents */
+  --crux-pine-green: #3d7a4a;     /* in stock, success */
+  --crux-granite: #2b3440;        /* body text */
+  --crux-ink: #1a1f27;            /* mascot outline color, borders on illustrations */
+
+  /* neutrals */
+  --crux-gray-100: #efe8d8;
+  --crux-gray-300: #d4c9b2;
+  --crux-gray-500: #8a8272;
+  --crux-gray-700: #4b4a44;
+
+  /* semantic */
+  --color-bg: var(--crux-wool-cream);
+  --color-surface: var(--crux-wool-white);
+  --color-text: var(--crux-granite);
+  --color-heading: var(--crux-knit-navy);
+  --color-accent: var(--crux-rope-orange);
+  --color-accent-hover: #c9531d;
+  --color-link: var(--crux-sky-blue);
+  --color-success: var(--crux-pine-green);
+  --color-warning: #c98a12;
+  --color-danger: var(--crux-beanie-red);
+  --color-border: var(--crux-gray-300);
+
+  /* type */
+  --font-display: "Bree Serif", "Rockwell", Georgia, serif;
+  --font-body: "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* shape */
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --radius-l: 20px;
+  --shadow-card: 0 2px 0 var(--crux-ink), 0 8px 18px rgba(31, 47, 85, 0.12);
+  --outline-ink: 2px solid var(--crux-ink);
+
+  /* layout */
+  --content-max: 1200px;
+  --gutter: 16px;
+}

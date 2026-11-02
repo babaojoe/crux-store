@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beta widget check</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <style>
+    body { margin: 0; font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); }
+    main { max-width: 720px; margin: 0 auto; padding: 32px var(--gutter); }
+    h1 { font-family: var(--font-display); color: var(--color-heading); margin-top: 0; }
+    .card { background: var(--color-surface); border: var(--outline-ink); border-radius: var(--radius-m); box-shadow: var(--shadow-card); padding: 16px 20px; margin: 16px 0; }
+    ul { padding-left: 20px; }
+    li { margin: 6px 0; }
+    .ok { color: var(--color-success); font-weight: 700; }
+    .bad { color: var(--color-danger); font-weight: 700; }
+    code { background: var(--crux-gray-100); padding: 1px 5px; border-radius: 4px; }
+    img { width: 72px; height: 72px; border-radius: 50%; border: var(--outline-ink); }
+    header { display: flex; gap: 16px; align-items: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="assets/brand/beta-avatar.png" alt="Beta, the Crux Outdoor Co. guide">
+      <h1>Beta widget check</h1>
+    </header>
+    <p>This page checks that the Beta voice widget works from this host. Open it on the deployed HTTPS address, not from a file.</p>
+    <div class="card">
+      <strong>Checks</strong>
+      <ul id="checks"></ul>
+    </div>
+    <div class="card">
+      <strong>Manual steps</strong>
+      <ol>
+        <li>Click the call button in the widget (bottom right) and allow the microphone when asked.</li>
+        <li>Beta should greet you. Say "where is my order" and complete the phone and ZIP check with Alex: 303 555 0142, ZIP 80302.</li>
+        <li>Press the button below during the call. If it works, the transcript or Beta's behaviour will show the message arrived.</li>
+      </ol>
+      <button id="send">Send test info to the call</button>
+      <p id="sendResult"></p>
+    </div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/beta-widget.js"></script>
+  <script>
+    var list = document.getElementById("checks");
+    function row(ok, text) {
+      var li = document.createElement("li");
+      li.innerHTML = '<span class="' + (ok ? "ok" : "bad") + '">' + (ok ? "PASS" : "FAIL") + "</span> " + text;
+      list.appendChild(li);
+    }
+    row(location.protocol === "https:" || location.hostname === "localhost", "Page is served over HTTPS (or localhost): " + location.origin);
+    row(!!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia), "Browser supports microphone capture");
+    row(typeof RTCPeerConnection === "function", "Browser supports WebRTC");
+    fetch(window.CRUX_CONFIG.betaEndpointUrl).then(function (r) { return r.json(); }).then(function (j) {
+      row(true, "Endpoint config fetch works from this origin (widget active: " + !!(j.endpointSettings && j.endpointSettings.webrtcWidgetConfig && j.endpointSettings.webrtcWidgetConfig.active) + ")");
+    }).catch(function (e) { row(false, "Endpoint config fetch failed: " + e.message); });
+    window.CruxBeta.onEvent(function (type, detail) {
+      if (type === "ready") row(true, "Widget initialised");
+      if (type === "session") row(true, "Call session started");
+      if (type === "ended") row(true, "Call ended");
+      if (type === "error") row(false, "Widget error: " + detail);
+    });
+    document.getElementById("send").addEventListener("click", function () {
+      var r = window.CruxBeta.sendInfo("page_context", { page: "widget-test", sku: "VERTEX-LT" });
+      document.getElementById("sendResult").textContent = r === null ? "No active call to send to." : "Sent.";
+    });
+  </script>
+</body>
+</html>
