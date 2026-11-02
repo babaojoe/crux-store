@@ -1,5 +1,17 @@
 {
   "currency": "USD",
+  "policies": {
+    "pricesIncludeTax": true,
+    "shipping": {
+      "memberStandard": 0,
+      "guestStandard": 8.95,
+      "guestFreeOver": 99,
+      "express": 19.95,
+      "footnote": "*Free standard shipping for Basecamp and Summit Club members. Joining Basecamp is free. Guests pay $8.95, free on orders over $99. Prices include sales tax."
+    },
+    "returnWindowDays": 30,
+    "defectCoverDays": 90
+  },
   "categories": [
     { "id": "ropes-soft-goods", "name": "Ropes and Soft Goods", "blurb": "Dynamic ropes, static lines and webbing for every pitch." },
     { "id": "carabiners-belay", "name": "Carabiners and Belay", "blurb": "Belay devices and biners you can trust with a fall." },

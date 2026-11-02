@@ -24,7 +24,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "8747",
       "etaDaysFromNow": 2,
@@ -74,7 +74,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "0738",
       "deliveredDaysAgo": 17,
@@ -128,7 +128,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "6645",
       "deliveredDaysAgo": 36,
@@ -176,7 +176,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "4500",
       "deliveredDaysAgo": 65,
@@ -230,7 +230,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "8990",
       "deliveredDaysAgo": 115,
@@ -278,7 +278,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "7280",
       "deliveredDaysAgo": 186,
@@ -343,7 +343,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "3950",
       "deliveredDaysAgo": 255,
@@ -397,7 +397,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "2572",
       "deliveredDaysAgo": 325,
@@ -445,7 +445,7 @@
         "state": "CO",
         "zip": "80302"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "5676",
       "deliveredDaysAgo": 535,
@@ -493,7 +493,7 @@
         "state": "CO",
         "zip": "80202"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "etaDaysFromNow": 5,
       "refundStatus": "none",
       "timeline": [
@@ -535,7 +535,7 @@
         "state": "CO",
         "zip": "80202"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "7063",
       "deliveredDaysAgo": 9,
@@ -589,7 +589,7 @@
         "state": "CO",
         "zip": "80202"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "5280",
       "deliveredDaysAgo": 41,
@@ -652,7 +652,7 @@
         "state": "CO",
         "zip": "80202"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "5720",
       "deliveredDaysAgo": 136,
@@ -706,7 +706,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "6610",
       "etaDaysFromNow": 0,
@@ -754,7 +754,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "7080",
       "deliveredDaysAgo": 6,
@@ -802,7 +802,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "1919",
       "deliveredDaysAgo": 25,
@@ -850,7 +850,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "4810",
       "deliveredDaysAgo": 16,
@@ -921,7 +921,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "9300",
       "deliveredDaysAgo": 76,
@@ -975,7 +975,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "6190",
       "deliveredDaysAgo": 145,
@@ -1029,7 +1029,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "7018",
       "deliveredDaysAgo": 235,
@@ -1083,7 +1083,7 @@
         "state": "CO",
         "zip": "81611"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "1340",
       "deliveredDaysAgo": 395,
@@ -1132,7 +1132,7 @@
         "state": "UT",
         "zip": "84101"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "etaDaysFromNow": 6,
       "refundStatus": "none",
       "timeline": [
@@ -1182,7 +1182,7 @@
         "state": "UT",
         "zip": "84101"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "1750",
       "etaDaysFromNow": 2,
@@ -1231,7 +1231,7 @@
         "state": "UT",
         "zip": "84101"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "USPS",
       "trackingLast4": "0436",
       "etaDaysFromNow": 4,
@@ -1280,7 +1280,7 @@
         "state": "UT",
         "zip": "84101"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "refundStatus": "none",
       "timeline": [
         {
@@ -1321,7 +1321,7 @@
         "state": "UT",
         "zip": "84101"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "0790",
       "deliveredDaysAgo": 22,
@@ -1378,7 +1378,7 @@
         "state": "UT",
         "zip": "84532"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "9009",
       "deliveredDaysAgo": 395,
@@ -1432,7 +1432,7 @@
         "state": "UT",
         "zip": "84532"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "7200",
       "deliveredDaysAgo": 515,
@@ -1480,7 +1480,7 @@
         "state": "UT",
         "zip": "84532"
       },
-      "shippingMethod": "Standard, free",
+      "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
       "trackingLast4": "2750",
       "deliveredDaysAgo": 645,

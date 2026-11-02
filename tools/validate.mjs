@@ -45,6 +45,7 @@ check(new Set(customers.map((c) => c.phone)).size === customers.length, "duplica
 for (const c of customers) {
   check(/^\d{10}$/.test(c.phone), `${c.customerId}: phone must be 10 digits`);
   check(/^\d{5}$/.test(c.zip) && c.zip === c.address.zip, `${c.customerId}: zip mismatch`);
+  check(["Basecamp", "Summit Club"].includes(c.tier), `${c.customerId}: unknown tier ${c.tier}`);
 }
 
 // Orders

@@ -11,7 +11,8 @@ const customers = JSON.parse(readFileSync(join(root, "data/customers.json"), "ut
 const price = Object.fromEntries(catalog.products.map((p) => [p.sku, p.price]));
 const cust = Object.fromEntries(customers.map((c) => [c.customerId, c]));
 
-// Prices include tax and every order ships free, so total equals the merchandise subtotal.
+// Every demo customer is a member (Basecamp or Summit Club), so standard shipping is free.
+// Prices include tax (catalog policies), so total equals the merchandise subtotal.
 // L = [sku, variant, qty, fulfillment?]
 const specs = [
   // Alex Rivera
@@ -87,7 +88,7 @@ const orders = specs.map((s) => {
   const order = {
     id: s.id, customerId: s.c, placedDaysAgo: s.placed, status: s.status, lines,
     subtotal, shipping: 0, tax: 0, total: subtotal,
-    shipTo: cust[s.c].address, shippingMethod: "Standard, free",
+    shipTo: cust[s.c].address, shippingMethod: "Standard, free for members",
   };
   if (shipsOut) { order.carrier = s.carrier || "UPS"; order.trackingLast4 = last4(s.id); }
   if (s.eta !== undefined) order.etaDaysFromNow = s.eta;
