@@ -62,6 +62,11 @@ const specs = [
   { id: "CRUX-37250", c: "C-1005", placed: 650, status: "delivered", delivered: 645, lines: [["ROPE-60", "60 m", 1]] },
 ];
 
+// Carrier and last four tracking digits of the original ten demo orders, kept so voice tests stay valid.
+const legacy = {
+  "CRUX-48213": ["UPS", "6784"], "CRUX-47102": ["UPS", "0001"], "CRUX-45500": ["UPS", "0002"], "CRUX-46777": ["FedEx", "0201"],
+  "CRUX-48190": ["FedEx", "0138"], "CRUX-46001": ["FedEx", "0077"], "CRUX-45990": ["FedEx", "0055"], "CRUX-48044": ["USPS", "8490"],
+};
 const money = (n) => Math.round(n * 100) / 100;
 const last4 = (id) => String((Number(id.replace(/\D/g, "")) * 7919) % 10000).padStart(4, "0");
 
@@ -90,7 +95,10 @@ const orders = specs.map((s) => {
     subtotal, shipping: 0, tax: 0, total: subtotal,
     shipTo: cust[s.c].address, shippingMethod: "Standard, free for members",
   };
-  if (shipsOut) { order.carrier = s.carrier || "UPS"; order.trackingLast4 = last4(s.id); }
+  if (shipsOut) {
+    const [carrier, track4] = legacy[s.id] || [s.carrier || "UPS", last4(s.id)];
+    order.carrier = carrier; order.trackingLast4 = track4;
+  }
   if (s.eta !== undefined) order.etaDaysFromNow = s.eta;
   if (s.delivered !== undefined) order.deliveredDaysAgo = s.delivered;
   if (s.exception) order.exception = s.exception;

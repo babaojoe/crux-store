@@ -26,7 +26,7 @@
       },
       "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
-      "trackingLast4": "8747",
+      "trackingLast4": "6784",
       "etaDaysFromNow": 2,
       "refundStatus": "none",
       "timeline": [
@@ -76,7 +76,7 @@
       },
       "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
-      "trackingLast4": "0738",
+      "trackingLast4": "0001",
       "deliveredDaysAgo": 17,
       "refundStatus": "none",
       "timeline": [
@@ -178,7 +178,7 @@
       },
       "shippingMethod": "Standard, free for members",
       "carrier": "UPS",
-      "trackingLast4": "4500",
+      "trackingLast4": "0002",
       "deliveredDaysAgo": 65,
       "refundStatus": "none",
       "timeline": [
@@ -536,8 +536,8 @@
         "zip": "80202"
       },
       "shippingMethod": "Standard, free for members",
-      "carrier": "UPS",
-      "trackingLast4": "7063",
+      "carrier": "FedEx",
+      "trackingLast4": "0201",
       "deliveredDaysAgo": 9,
       "refundStatus": "none",
       "timeline": [
@@ -707,8 +707,8 @@
         "zip": "81611"
       },
       "shippingMethod": "Standard, free for members",
-      "carrier": "UPS",
-      "trackingLast4": "6610",
+      "carrier": "FedEx",
+      "trackingLast4": "0138",
       "etaDaysFromNow": 0,
       "refundStatus": "none",
       "timeline": [
@@ -803,8 +803,8 @@
         "zip": "81611"
       },
       "shippingMethod": "Standard, free for members",
-      "carrier": "UPS",
-      "trackingLast4": "1919",
+      "carrier": "FedEx",
+      "trackingLast4": "0077",
       "deliveredDaysAgo": 25,
       "refundStatus": "none",
       "timeline": [
@@ -851,8 +851,8 @@
         "zip": "81611"
       },
       "shippingMethod": "Standard, free for members",
-      "carrier": "UPS",
-      "trackingLast4": "4810",
+      "carrier": "FedEx",
+      "trackingLast4": "0055",
       "deliveredDaysAgo": 16,
       "returnStatus": "received",
       "refundStatus": "refunded",
@@ -1233,7 +1233,7 @@
       },
       "shippingMethod": "Standard, free for members",
       "carrier": "USPS",
-      "trackingLast4": "0436",
+      "trackingLast4": "8490",
       "etaDaysFromNow": 4,
       "exception": "Delayed by severe weather",
       "refundStatus": "none",

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mountain ridge with a climbing rope">
+<rect width="1200" height="520" fill="#cfe5f5"/><defs><pattern id="h" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M0 40 Q20 10 40 40 T80 40 M0 70 Q20 40 40 70 T80 70 M0 10 Q20 -20 40 10 T80 10" fill="none" stroke="#1f2f55" stroke-opacity=".09" stroke-width="2"/></pattern></defs><rect width="1200" height="520" fill="url(#h)"/>
+<circle cx="930" cy="140" r="64" fill="#f6eddc" stroke="#1a1f27" stroke-width="6"/>
+<path d="M0 420 L180 250 L280 330 L430 160 L610 360 L760 230 L960 400 L1100 300 L1200 380 V520 H0Z" fill="#2f8fd6" stroke="#1a1f27" stroke-width="6" stroke-linejoin="round"/>
+<path d="M0 470 L150 330 L260 400 L430 260 L600 430 L800 300 L1000 450 L1200 340 V520 H0Z" fill="#1f2f55" stroke="#1a1f27" stroke-width="6" stroke-linejoin="round"/>
+<path d="M0 520 V490 Q200 440 360 480 T700 470 T1200 480 V520Z" fill="#3d7a4a" stroke="#1a1f27" stroke-width="6"/>
+<path d="M430 160 L395 205 L430 195 L465 215Z" fill="#fffaf0" stroke="#1a1f27" stroke-width="5" stroke-linejoin="round"/>
+<path d="M430 160 C470 230 380 260 430 330 S520 400 470 470" fill="none" stroke="#1a1f27" stroke-width="16" stroke-linecap="round"/><path d="M430 160 C470 230 380 260 430 330 S520 400 470 470" fill="none" stroke="#e5672b" stroke-width="9" stroke-linecap="round"/>
+</svg>
