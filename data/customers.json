@@ -1,0 +1,67 @@
+{
+  "customers": [
+    {
+      "customerId": "C-1001", "firstName": "Alex", "lastName": "Rivera", "email": "alex.rivera@example.com",
+      "phone": "3035550142", "zip": "80302", "tier": "Summit Club", "status": "active",
+      "memberSinceDaysAgo": 2190, "points": 1840,
+      "address": { "name": "Alex Rivera", "line1": "2184 Flatiron Way", "city": "Boulder", "state": "CO", "zip": "80302" },
+      "profile": { "disciplines": ["trad", "sport"], "level": "Advanced", "shoeSize": "US 10", "harnessSize": "M", "blurb": "Weekend trad and sport climber, six years with Crux." },
+      "savedPayment": { "brand": "Visa", "last4": "4242" },
+      "commPreference": "email",
+      "supportHistory": [
+        { "daysAgo": 190, "summary": "Pivot Slipper bouldering shoes felt too tight", "resolution": "Returned and refunded to the original card." },
+        { "daysAgo": 400, "summary": "Asked about rope retirement guidelines", "resolution": "Sent the rope care guide." }
+      ]
+    },
+    {
+      "customerId": "C-1002", "firstName": "Jordan", "lastName": "Lee", "email": "jordan.lee@example.com",
+      "phone": "7205550177", "zip": "80202", "tier": "Basecamp", "status": "active",
+      "memberSinceDaysAgo": 150, "points": 240,
+      "address": { "name": "Jordan Lee", "line1": "905 Larimer Ave, Apt 4B", "city": "Denver", "state": "CO", "zip": "80202" },
+      "profile": { "disciplines": ["boulder", "gym"], "level": "Intermediate", "shoeSize": "US 9", "harnessSize": "M", "blurb": "Newer gym and bouldering climber, joined five months ago." },
+      "savedPayment": { "brand": "Mastercard", "last4": "5100" },
+      "commPreference": "sms",
+      "supportHistory": [
+        { "daysAgo": 9, "summary": "Cam set arrived and the customer wanted a second set", "resolution": "Told it is out of stock with a 14 day restock." }
+      ]
+    },
+    {
+      "customerId": "C-1003", "firstName": "Sam", "lastName": "Patel", "email": "sam.patel@example.com",
+      "phone": "9705550119", "zip": "81611", "tier": "Summit Club", "status": "active",
+      "memberSinceDaysAgo": 1460, "points": 3900,
+      "address": { "name": "Sam Patel", "line1": "47 Hunter Creek Rd", "city": "Aspen", "state": "CO", "zip": "81611" },
+      "profile": { "disciplines": ["alpine", "trad"], "level": "Expert", "shoeSize": "US 11", "harnessSize": "L", "blurb": "Alpine guide and heavy repeat buyer for client groups." },
+      "savedPayment": { "brand": "Visa", "last4": "1881" },
+      "commPreference": "phone",
+      "supportHistory": [
+        { "daysAgo": 16, "summary": "Quickdraw pack returned after a gate stuck", "resolution": "Refunded in full, defect reported to the product team." },
+        { "daysAgo": 300, "summary": "Asked for guide pricing on bulk rope orders", "resolution": "Passed to the Summit Club team." }
+      ]
+    },
+    {
+      "customerId": "C-1004", "firstName": "Morgan", "lastName": "Chen", "email": "morgan.chen@example.com",
+      "phone": "8015550163", "zip": "84101", "tier": "Basecamp", "status": "active",
+      "memberSinceDaysAgo": 430, "points": 620,
+      "address": { "name": "Morgan Chen", "line1": "612 Wasatch Blvd", "city": "Salt Lake City", "state": "UT", "zip": "84101" },
+      "profile": { "disciplines": ["sport"], "level": "Intermediate", "shoeSize": "US 9", "harnessSize": "M", "blurb": "Sport climber building a rack, buying in stages." },
+      "savedPayment": { "brand": "Amex", "last4": "3005" },
+      "commPreference": "email",
+      "supportHistory": [
+        { "daysAgo": 6, "summary": "Asked why part of an order shipped without the cams", "resolution": "Explained the backorder and the restock date." },
+        { "daysAgo": 25, "summary": "Wanted to return the 12 pack of quickdraws", "resolution": "Return label sent." }
+      ]
+    },
+    {
+      "customerId": "C-1005", "firstName": "Taylor", "lastName": "Brooks", "email": "taylor.brooks@example.com",
+      "phone": "4355550188", "zip": "84532", "tier": "Basecamp", "status": "closed",
+      "memberSinceDaysAgo": 1100, "closedDaysAgo": 210, "points": 0,
+      "address": { "name": "Taylor Brooks", "line1": "88 Canyon Rd", "city": "Moab", "state": "UT", "zip": "84532" },
+      "profile": { "disciplines": ["trad"], "level": "Intermediate", "shoeSize": "US 8", "harnessSize": "S", "blurb": "Lapsed customer who closed their account." },
+      "savedPayment": null,
+      "commPreference": "email",
+      "supportHistory": [
+        { "daysAgo": 210, "summary": "Asked to close the account", "resolution": "Account closed and points forfeited." }
+      ]
+    }
+  ]
+}

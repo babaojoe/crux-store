@@ -1,0 +1,1508 @@
+{
+  "orders": [
+    {
+      "id": "CRUX-48213",
+      "customerId": "C-1001",
+      "placedDaysAgo": 2,
+      "status": "shipped",
+      "lines": [
+        {
+          "sku": "ROPE-60",
+          "variant": "60 m",
+          "qty": 1,
+          "unitPrice": 219.99
+        }
+      ],
+      "subtotal": 219.99,
+      "shipping": 0,
+      "tax": 0,
+      "total": 219.99,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "8747",
+      "etaDaysFromNow": 2,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 2,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 2,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 1,
+          "event": "Shipped"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-47102",
+      "customerId": "C-1001",
+      "placedDaysAgo": 21,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "VERTEX-LT",
+          "variant": "M",
+          "qty": 1,
+          "unitPrice": 89.5
+        },
+        {
+          "sku": "AUTOBLOCK",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 54.99
+        }
+      ],
+      "subtotal": 144.49,
+      "shipping": 0,
+      "tax": 0,
+      "total": 144.49,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "0738",
+      "deliveredDaysAgo": 17,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 21,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 21,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 20,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 17,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-46955",
+      "customerId": "C-1001",
+      "placedDaysAgo": 40,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "QUICKDRAW-12",
+          "variant": "12 pack",
+          "qty": 1,
+          "unitPrice": 179
+        },
+        {
+          "sku": "CARAB-HMS",
+          "variant": "Screw-lock",
+          "qty": 2,
+          "unitPrice": 19.95
+        }
+      ],
+      "subtotal": 218.9,
+      "shipping": 0,
+      "tax": 0,
+      "total": 218.9,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "6645",
+      "deliveredDaysAgo": 36,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 40,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 40,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 39,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 36,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-45500",
+      "customerId": "C-1001",
+      "placedDaysAgo": 70,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "TALON-MID",
+          "variant": "US 10",
+          "qty": 1,
+          "unitPrice": 145
+        }
+      ],
+      "subtotal": 145,
+      "shipping": 0,
+      "tax": 0,
+      "total": 145,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "4500",
+      "deliveredDaysAgo": 65,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 70,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 70,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 69,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 65,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-44210",
+      "customerId": "C-1001",
+      "placedDaysAgo": 120,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "CRACK-TRAD",
+          "variant": "US 10",
+          "qty": 1,
+          "unitPrice": 149
+        },
+        {
+          "sku": "CHALK-BAG",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 24
+        }
+      ],
+      "subtotal": 173,
+      "shipping": 0,
+      "tax": 0,
+      "total": 173,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "8990",
+      "deliveredDaysAgo": 115,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 120,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 120,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 119,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 115,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-43120",
+      "customerId": "C-1001",
+      "placedDaysAgo": 190,
+      "status": "refunded",
+      "lines": [
+        {
+          "sku": "PIVOT-SLIP",
+          "variant": "US 10",
+          "qty": 1,
+          "unitPrice": 139
+        }
+      ],
+      "subtotal": 139,
+      "shipping": 0,
+      "tax": 0,
+      "total": 139,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "7280",
+      "deliveredDaysAgo": 186,
+      "returnStatus": "received",
+      "refundStatus": "refunded",
+      "refund": {
+        "amount": 139,
+        "daysAgo": 174
+      },
+      "timeline": [
+        {
+          "daysAgo": 190,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 190,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 189,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 186,
+          "event": "Delivered"
+        },
+        {
+          "daysAgo": 180,
+          "event": "Return started"
+        },
+        {
+          "daysAgo": 176,
+          "event": "Return received at the warehouse"
+        },
+        {
+          "daysAgo": 174,
+          "event": "Refund issued to the original card"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-42050",
+      "customerId": "C-1001",
+      "placedDaysAgo": 260,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "ROPE-DRY",
+          "variant": "70 m",
+          "qty": 1,
+          "unitPrice": 279
+        }
+      ],
+      "subtotal": 279,
+      "shipping": 0,
+      "tax": 0,
+      "total": 279,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "3950",
+      "deliveredDaysAgo": 255,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 260,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 260,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 259,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 255,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-40388",
+      "customerId": "C-1001",
+      "placedDaysAgo": 330,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "ALPINE-RACK",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 310
+        },
+        {
+          "sku": "NUT-SET",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 64
+        }
+      ],
+      "subtotal": 374,
+      "shipping": 0,
+      "tax": 0,
+      "total": 374,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "2572",
+      "deliveredDaysAgo": 325,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 330,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 330,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 329,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 325,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-36004",
+      "customerId": "C-1001",
+      "placedDaysAgo": 540,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "BELAY-JKT",
+          "variant": "L",
+          "qty": 1,
+          "unitPrice": 175
+        }
+      ],
+      "subtotal": 175,
+      "shipping": 0,
+      "tax": 0,
+      "total": 175,
+      "shipTo": {
+        "name": "Alex Rivera",
+        "line1": "2184 Flatiron Way",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "5676",
+      "deliveredDaysAgo": 535,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 540,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 540,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 539,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 535,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-48301",
+      "customerId": "C-1002",
+      "placedDaysAgo": 1,
+      "status": "processing",
+      "lines": [
+        {
+          "sku": "BOULDER-PRO",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 259
+        }
+      ],
+      "subtotal": 259,
+      "shipping": 0,
+      "tax": 0,
+      "total": 259,
+      "shipTo": {
+        "name": "Jordan Lee",
+        "line1": "905 Larimer Ave, Apt 4B",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202"
+      },
+      "shippingMethod": "Standard, free",
+      "etaDaysFromNow": 5,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 1,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 1,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 1,
+          "event": "Packing at the Crux warehouse"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-46777",
+      "customerId": "C-1002",
+      "placedDaysAgo": 12,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "ALPINE-RACK",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 310
+        }
+      ],
+      "subtotal": 310,
+      "shipping": 0,
+      "tax": 0,
+      "total": 310,
+      "shipTo": {
+        "name": "Jordan Lee",
+        "line1": "905 Larimer Ave, Apt 4B",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "7063",
+      "deliveredDaysAgo": 9,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 12,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 12,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 11,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 9,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-45120",
+      "customerId": "C-1002",
+      "placedDaysAgo": 45,
+      "status": "return_received",
+      "lines": [
+        {
+          "sku": "PIVOT-SLIP",
+          "variant": "US 9",
+          "qty": 1,
+          "unitPrice": 139
+        },
+        {
+          "sku": "CHALK-BAG",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 24
+        }
+      ],
+      "subtotal": 163,
+      "shipping": 0,
+      "tax": 0,
+      "total": 163,
+      "shipTo": {
+        "name": "Jordan Lee",
+        "line1": "905 Larimer Ave, Apt 4B",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "5280",
+      "deliveredDaysAgo": 41,
+      "returnStatus": "received",
+      "refundStatus": "pending",
+      "timeline": [
+        {
+          "daysAgo": 45,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 45,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 44,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 41,
+          "event": "Delivered"
+        },
+        {
+          "daysAgo": 12,
+          "event": "Return started"
+        },
+        {
+          "daysAgo": 6,
+          "event": "Return received at the warehouse, refund processing"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-43880",
+      "customerId": "C-1002",
+      "placedDaysAgo": 140,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "GYM-CINDER",
+          "variant": "M",
+          "qty": 1,
+          "unitPrice": 64.95
+        },
+        {
+          "sku": "AUTOBLOCK",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 54.99
+        }
+      ],
+      "subtotal": 119.94,
+      "shipping": 0,
+      "tax": 0,
+      "total": 119.94,
+      "shipTo": {
+        "name": "Jordan Lee",
+        "line1": "905 Larimer Ave, Apt 4B",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "5720",
+      "deliveredDaysAgo": 136,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 140,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 140,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 139,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 136,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-48190",
+      "customerId": "C-1003",
+      "placedDaysAgo": 5,
+      "status": "out_for_delivery",
+      "lines": [
+        {
+          "sku": "HELMET-CX",
+          "variant": "M/L",
+          "qty": 1,
+          "unitPrice": 79.95
+        },
+        {
+          "sku": "CHALK-BAG",
+          "variant": "Standard",
+          "qty": 2,
+          "unitPrice": 24
+        }
+      ],
+      "subtotal": 127.95,
+      "shipping": 0,
+      "tax": 0,
+      "total": 127.95,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "6610",
+      "etaDaysFromNow": 0,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 5,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 5,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 3,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 0,
+          "event": "Out for delivery"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-47320",
+      "customerId": "C-1003",
+      "placedDaysAgo": 9,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "ROPE-DRY",
+          "variant": "60 m",
+          "qty": 2,
+          "unitPrice": 279
+        }
+      ],
+      "subtotal": 558,
+      "shipping": 0,
+      "tax": 0,
+      "total": 558,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "7080",
+      "deliveredDaysAgo": 6,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 9,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 9,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 8,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 6,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-46001",
+      "customerId": "C-1003",
+      "placedDaysAgo": 29,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "BELAY-JKT",
+          "variant": "L",
+          "qty": 1,
+          "unitPrice": 175
+        }
+      ],
+      "subtotal": 175,
+      "shipping": 0,
+      "tax": 0,
+      "total": 175,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "1919",
+      "deliveredDaysAgo": 25,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 29,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 29,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 28,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 25,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-45990",
+      "customerId": "C-1003",
+      "placedDaysAgo": 20,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "QUICKDRAW-6",
+          "variant": "6 pack",
+          "qty": 1,
+          "unitPrice": 96
+        }
+      ],
+      "subtotal": 96,
+      "shipping": 0,
+      "tax": 0,
+      "total": 96,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "4810",
+      "deliveredDaysAgo": 16,
+      "returnStatus": "received",
+      "refundStatus": "refunded",
+      "refund": {
+        "amount": 96,
+        "daysAgo": 6
+      },
+      "timeline": [
+        {
+          "daysAgo": 20,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 20,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 19,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 16,
+          "event": "Delivered"
+        },
+        {
+          "daysAgo": 12,
+          "event": "Return started, gate defect reported"
+        },
+        {
+          "daysAgo": 8,
+          "event": "Return received at the warehouse"
+        },
+        {
+          "daysAgo": 6,
+          "event": "Refund issued to the original card"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-44700",
+      "customerId": "C-1003",
+      "placedDaysAgo": 80,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "SUMMIT-ALP",
+          "variant": "L",
+          "qty": 1,
+          "unitPrice": 119
+        },
+        {
+          "sku": "TUBE-BELAY",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 34.95
+        }
+      ],
+      "subtotal": 153.95,
+      "shipping": 0,
+      "tax": 0,
+      "total": 153.95,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "9300",
+      "deliveredDaysAgo": 76,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 80,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 80,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 79,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 76,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-43010",
+      "customerId": "C-1003",
+      "placedDaysAgo": 150,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "ALPINE-RACK",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 310
+        },
+        {
+          "sku": "NUT-SET",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 64
+        }
+      ],
+      "subtotal": 374,
+      "shipping": 0,
+      "tax": 0,
+      "total": 374,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "6190",
+      "deliveredDaysAgo": 145,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 150,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 150,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 149,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 145,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-41222",
+      "customerId": "C-1003",
+      "placedDaysAgo": 240,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "STATIC-10",
+          "variant": "50 m",
+          "qty": 1,
+          "unitPrice": 129
+        },
+        {
+          "sku": "WEB-TUBE",
+          "variant": "60 ft",
+          "qty": 3,
+          "unitPrice": 18
+        }
+      ],
+      "subtotal": 183,
+      "shipping": 0,
+      "tax": 0,
+      "total": 183,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "7018",
+      "deliveredDaysAgo": 235,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 240,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 240,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 239,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 235,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-39860",
+      "customerId": "C-1003",
+      "placedDaysAgo": 400,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "WALL-HAUL",
+          "variant": "L",
+          "qty": 1,
+          "unitPrice": 159
+        },
+        {
+          "sku": "CARAB-HMS",
+          "variant": "Twist-lock",
+          "qty": 4,
+          "unitPrice": 19.95
+        }
+      ],
+      "subtotal": 238.8,
+      "shipping": 0,
+      "tax": 0,
+      "total": 238.8,
+      "shipTo": {
+        "name": "Sam Patel",
+        "line1": "47 Hunter Creek Rd",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "1340",
+      "deliveredDaysAgo": 395,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 400,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 400,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 399,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 395,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-48266",
+      "customerId": "C-1004",
+      "placedDaysAgo": 2,
+      "status": "backordered",
+      "lines": [
+        {
+          "sku": "VERTEX-LT",
+          "variant": "M",
+          "qty": 1,
+          "unitPrice": 89.5,
+          "fulfillment": "backordered"
+        }
+      ],
+      "subtotal": 89.5,
+      "shipping": 0,
+      "tax": 0,
+      "total": 89.5,
+      "shipTo": {
+        "name": "Morgan Chen",
+        "line1": "612 Wasatch Blvd",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101"
+      },
+      "shippingMethod": "Standard, free",
+      "etaDaysFromNow": 6,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 2,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 2,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 2,
+          "event": "Waiting on stock, we will ship as soon as it arrives"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-48250",
+      "customerId": "C-1004",
+      "placedDaysAgo": 3,
+      "status": "partially_shipped",
+      "lines": [
+        {
+          "sku": "EDGE-LV",
+          "variant": "US 9",
+          "qty": 1,
+          "unitPrice": 129,
+          "fulfillment": "shipped"
+        },
+        {
+          "sku": "ALPINE-RACK",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 310,
+          "fulfillment": "backordered"
+        }
+      ],
+      "subtotal": 439,
+      "shipping": 0,
+      "tax": 0,
+      "total": 439,
+      "shipTo": {
+        "name": "Morgan Chen",
+        "line1": "612 Wasatch Blvd",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "1750",
+      "etaDaysFromNow": 2,
+      "backorderEtaDaysFromNow": 14,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 3,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 3,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 2,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 0,
+          "event": "Cams are backordered, we will ship them as soon as they arrive (about 14 days)"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-48044",
+      "customerId": "C-1004",
+      "placedDaysAgo": 8,
+      "status": "shipped",
+      "lines": [
+        {
+          "sku": "TALON-MID",
+          "variant": "US 9",
+          "qty": 1,
+          "unitPrice": 145
+        }
+      ],
+      "subtotal": 145,
+      "shipping": 0,
+      "tax": 0,
+      "total": 145,
+      "shipTo": {
+        "name": "Morgan Chen",
+        "line1": "612 Wasatch Blvd",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "USPS",
+      "trackingLast4": "0436",
+      "etaDaysFromNow": 4,
+      "exception": "Delayed by severe weather",
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 8,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 8,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 7,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 2,
+          "event": "Delayed by severe weather"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-47555",
+      "customerId": "C-1004",
+      "placedDaysAgo": 15,
+      "status": "cancelled",
+      "lines": [
+        {
+          "sku": "CHALK-BAG",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 24
+        }
+      ],
+      "subtotal": 24,
+      "shipping": 0,
+      "tax": 0,
+      "total": 24,
+      "shipTo": {
+        "name": "Morgan Chen",
+        "line1": "612 Wasatch Blvd",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101"
+      },
+      "shippingMethod": "Standard, free",
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 15,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 15,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 14,
+          "event": "Order cancelled, payment refunded"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-46410",
+      "customerId": "C-1004",
+      "placedDaysAgo": 26,
+      "status": "return_in_transit",
+      "lines": [
+        {
+          "sku": "QUICKDRAW-12",
+          "variant": "12 pack",
+          "qty": 1,
+          "unitPrice": 179
+        }
+      ],
+      "subtotal": 179,
+      "shipping": 0,
+      "tax": 0,
+      "total": 179,
+      "shipTo": {
+        "name": "Morgan Chen",
+        "line1": "612 Wasatch Blvd",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "0790",
+      "deliveredDaysAgo": 22,
+      "returnStatus": "in_transit",
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 26,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 26,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 25,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 22,
+          "event": "Delivered"
+        },
+        {
+          "daysAgo": 3,
+          "event": "Return started, label sent"
+        },
+        {
+          "daysAgo": 1,
+          "event": "Return in transit to the warehouse"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-40111",
+      "customerId": "C-1005",
+      "placedDaysAgo": 400,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "HELMET-CX",
+          "variant": "S/M",
+          "qty": 1,
+          "unitPrice": 79.95
+        }
+      ],
+      "subtotal": 79.95,
+      "shipping": 0,
+      "tax": 0,
+      "total": 79.95,
+      "shipTo": {
+        "name": "Taylor Brooks",
+        "line1": "88 Canyon Rd",
+        "city": "Moab",
+        "state": "UT",
+        "zip": "84532"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "9009",
+      "deliveredDaysAgo": 395,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 400,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 400,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 399,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 395,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-38800",
+      "customerId": "C-1005",
+      "placedDaysAgo": 520,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "EDGE-LV",
+          "variant": "US 8",
+          "qty": 1,
+          "unitPrice": 129
+        },
+        {
+          "sku": "CHALK-BAG",
+          "variant": "Standard",
+          "qty": 1,
+          "unitPrice": 24
+        }
+      ],
+      "subtotal": 153,
+      "shipping": 0,
+      "tax": 0,
+      "total": 153,
+      "shipTo": {
+        "name": "Taylor Brooks",
+        "line1": "88 Canyon Rd",
+        "city": "Moab",
+        "state": "UT",
+        "zip": "84532"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "7200",
+      "deliveredDaysAgo": 515,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 520,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 520,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 519,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 515,
+          "event": "Delivered"
+        }
+      ]
+    },
+    {
+      "id": "CRUX-37250",
+      "customerId": "C-1005",
+      "placedDaysAgo": 650,
+      "status": "delivered",
+      "lines": [
+        {
+          "sku": "ROPE-60",
+          "variant": "60 m",
+          "qty": 1,
+          "unitPrice": 219.99
+        }
+      ],
+      "subtotal": 219.99,
+      "shipping": 0,
+      "tax": 0,
+      "total": 219.99,
+      "shipTo": {
+        "name": "Taylor Brooks",
+        "line1": "88 Canyon Rd",
+        "city": "Moab",
+        "state": "UT",
+        "zip": "84532"
+      },
+      "shippingMethod": "Standard, free",
+      "carrier": "UPS",
+      "trackingLast4": "2750",
+      "deliveredDaysAgo": 645,
+      "refundStatus": "none",
+      "timeline": [
+        {
+          "daysAgo": 650,
+          "event": "Order placed"
+        },
+        {
+          "daysAgo": 650,
+          "event": "Payment confirmed"
+        },
+        {
+          "daysAgo": 649,
+          "event": "Shipped"
+        },
+        {
+          "daysAgo": 645,
+          "event": "Delivered"
+        }
+      ]
+    }
+  ]
+}

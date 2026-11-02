@@ -1,0 +1,306 @@
+{
+  "currency": "USD",
+  "categories": [
+    { "id": "ropes-soft-goods", "name": "Ropes and Soft Goods", "blurb": "Dynamic ropes, static lines and webbing for every pitch." },
+    { "id": "carabiners-belay", "name": "Carabiners and Belay", "blurb": "Belay devices and biners you can trust with a fall." },
+    { "id": "protection", "name": "Protection", "blurb": "Quickdraws, cams and nuts to protect the route." },
+    { "id": "shoes", "name": "Climbing Shoes", "blurb": "From gym slippers to all-day crack shoes." },
+    { "id": "harnesses", "name": "Harnesses", "blurb": "Comfortable, tested harnesses for gym, crag and summit." },
+    { "id": "other-gear", "name": "Other Gear", "blurb": "Helmets, chalk, pads and layers to round out the kit." }
+  ],
+  "products": [
+    {
+      "sku": "ROPE-60", "name": "Dynamic Climbing Rope 9.8 mm", "category": "ropes-soft-goods", "subcategory": "Dynamic ropes", "brandLine": "Crux Core",
+      "price": 219.99, "variants": [ { "label": "60 m", "stock": 18 }, { "label": "70 m", "stock": 3 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "trad", "gym"],
+      "specs": { "Diameter": "9.8 mm", "Weight": "62 g/m", "Impact force": "8.4 kN", "Dry treated": "No", "Standard": "EN 892 single rope" },
+      "shortDescription": "The all-around single rope for gym, sport and trad.",
+      "longDescription": "A forgiving 9.8 mm single rope with a soft catch and a durable sheath. It handles daily gym laps and weekend crag days without fuss.",
+      "features": ["Soft, forgiving catch", "Durable sheath for heavy use", "Middle mark for easy rappels"],
+      "image": "assets/products/ROPE-60.svg", "rating": 4.7, "reviewCount": 212,
+      "searchKeywords": ["rope", "dynamic", "single rope", "lead rope", "cord", "60 meter", "70 meter"],
+      "relatedSkus": ["ROPE-DRY", "AUTOBLOCK", "QUICKDRAW-12"]
+    },
+    {
+      "sku": "ROPE-DRY", "name": "Pinnacle Dry Single Rope 9.4 mm", "category": "ropes-soft-goods", "subcategory": "Dynamic ropes", "brandLine": "Crux Alpine",
+      "price": 279.00, "variants": [ { "label": "60 m", "stock": 9 }, { "label": "70 m", "stock": 5 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "trad", "alpine"],
+      "specs": { "Diameter": "9.4 mm", "Weight": "53 g/m", "Impact force": "8.9 kN", "Dry treated": "Yes, core and sheath", "Standard": "EN 892 single rope" },
+      "shortDescription": "Lightweight dry-treated rope for long routes and wet days.",
+      "longDescription": "Dry treatment on both core and sheath keeps this rope light when it is wet or icy. Thinner and lighter than the Core rope, it is built for long routes and alpine objectives.",
+      "features": ["Dry treated core and sheath", "Light for long approaches", "Handles ice and wet rock"],
+      "image": "assets/products/ROPE-DRY.svg", "rating": 4.8, "reviewCount": 96,
+      "searchKeywords": ["rope", "dry rope", "dry treated", "alpine rope", "thin rope", "lightweight"],
+      "relatedSkus": ["ROPE-60", "SUMMIT-ALP", "TUBE-BELAY"]
+    },
+    {
+      "sku": "STATIC-10", "name": "Haul Static Line 10 mm", "category": "ropes-soft-goods", "subcategory": "Static lines", "brandLine": "Crux Core",
+      "price": 129.00, "variants": [ { "label": "30 m", "stock": 14 }, { "label": "50 m", "stock": 6 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["trad", "alpine"],
+      "specs": { "Diameter": "10 mm", "Weight": "72 g/m", "Stretch": "Low", "Use": "Hauling, fixed lines, rescue practice", "Standard": "EN 1891 type A" },
+      "shortDescription": "Low-stretch line for hauling and fixed lines. Not for lead climbing.",
+      "longDescription": "A low-stretch static line for hauling gear, setting fixed lines and rope work. It is not a lead rope and must never be used to catch a lead fall.",
+      "features": ["Low stretch", "Tight, abrasion-resistant sheath", "Colored tracer for easy ID"],
+      "image": "assets/products/STATIC-10.svg", "rating": 4.6, "reviewCount": 41,
+      "searchKeywords": ["static rope", "haul line", "fixed line", "rescue", "cord"],
+      "relatedSkus": ["WALL-HAUL", "WEB-TUBE", "CARAB-HMS"]
+    },
+    {
+      "sku": "WEB-TUBE", "name": "Tubular Webbing 1 inch", "category": "ropes-soft-goods", "subcategory": "Webbing and slings", "brandLine": "Crux Core",
+      "price": 18.00, "variants": [ { "label": "15 ft", "stock": 80 }, { "label": "30 ft", "stock": 55 }, { "label": "60 ft", "stock": 20 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["trad", "alpine", "sport"],
+      "specs": { "Width": "1 inch", "Strength": "18 kN", "Material": "Nylon", "Sold by": "Length", "Standard": "EN 565" },
+      "shortDescription": "Nylon tubular webbing for anchors and slings, sold by length.",
+      "longDescription": "Classic 1 inch nylon tubular webbing. Tie your own slings and anchor material, or keep a length in the pack for repairs.",
+      "features": ["18 kN rated", "Easy to tie and inspect", "Cut to length at checkout"],
+      "image": "assets/products/WEB-TUBE.svg", "rating": 4.5, "reviewCount": 77,
+      "searchKeywords": ["webbing", "sling", "runner", "anchor", "tubular"],
+      "relatedSkus": ["CARAB-WIRE", "NUT-SET", "STATIC-10"]
+    },
+
+    {
+      "sku": "AUTOBLOCK", "name": "Auto-Block Belay Device", "category": "carabiners-belay", "subcategory": "Belay devices", "brandLine": "Crux Core",
+      "price": 54.99, "variants": [ { "label": "Standard", "stock": 40 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "gym", "trad"],
+      "specs": { "Rope range": "8.9 to 10.5 mm", "Weight": "190 g", "Braking": "Assisted", "Modes": "Belay, rappel" },
+      "shortDescription": "Assisted-braking belay device that helps lock off a fall.",
+      "longDescription": "An assisted-braking device that helps hold a falling climber. It still needs a trained, attentive belayer: always keep a brake hand on the rope.",
+      "features": ["Assisted braking", "Smooth rope feed", "Rappel mode"],
+      "image": "assets/products/AUTOBLOCK.svg", "rating": 4.8, "reviewCount": 168,
+      "searchKeywords": ["belay", "belay device", "auto block", "assisted braking", "grigri"],
+      "relatedSkus": ["TUBE-BELAY", "CARAB-HMS", "ROPE-60"]
+    },
+    {
+      "sku": "TUBE-BELAY", "name": "Guide Tube Belay and Rappel Device", "category": "carabiners-belay", "subcategory": "Belay devices", "brandLine": "Crux Alpine",
+      "price": 34.95, "variants": [ { "label": "Standard", "stock": 33 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["trad", "alpine", "sport"],
+      "specs": { "Rope range": "7.7 to 10.5 mm", "Weight": "85 g", "Braking": "Manual", "Modes": "Belay, rappel, guide mode" },
+      "shortDescription": "Light dual-slot tube for belaying and rappelling on thin or thick ropes.",
+      "longDescription": "A lightweight tube device with two slots, so it works with single, half and twin ropes. A favorite for long routes where every gram counts.",
+      "features": ["Dual rope slots", "Works with thin ropes", "Light and compact"],
+      "image": "assets/products/TUBE-BELAY.svg", "rating": 4.6, "reviewCount": 84,
+      "searchKeywords": ["belay", "tube", "atc", "rappel device", "belay device"],
+      "relatedSkus": ["AUTOBLOCK", "CARAB-HMS", "ROPE-DRY"]
+    },
+    {
+      "sku": "CARAB-HMS", "name": "Pear HMS Locking Carabiner", "category": "carabiners-belay", "subcategory": "Locking carabiners", "brandLine": "Crux Core",
+      "price": 19.95, "variants": [ { "label": "Screw-lock", "stock": 46 }, { "label": "Twist-lock", "stock": 28 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "trad", "alpine", "gym"],
+      "specs": { "Shape": "Pear (HMS)", "Weight": "78 g", "Major axis": "24 kN", "Gate opening": "21 mm", "Colors": "Vary by stock" },
+      "shortDescription": "Roomy pear-shaped locker for belaying and anchors.",
+      "longDescription": "A wide, pear-shaped locking carabiner sized for belay devices and Munter hitches. Choose screw-lock or twist-lock.",
+      "features": ["Fits belay devices and Munter hitches", "Screw or twist locking gate", "Keylock nose"],
+      "image": "assets/products/CARAB-HMS.svg", "rating": 4.7, "reviewCount": 129,
+      "searchKeywords": ["carabiner", "biner", "locking", "hms", "locker", "belay carabiner"],
+      "relatedSkus": ["AUTOBLOCK", "TUBE-BELAY", "CARAB-WIRE"]
+    },
+    {
+      "sku": "CARAB-WIRE", "name": "Wiregate Carabiner 2 Pack", "category": "carabiners-belay", "subcategory": "Non-locking carabiners", "brandLine": "Crux Core",
+      "price": 14.95, "variants": [ { "label": "Standard", "stock": 70 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "trad", "alpine"],
+      "specs": { "Pack": "2", "Weight": "36 g each", "Major axis": "22 kN", "Gate": "Wire" },
+      "shortDescription": "Two light wiregate biners for racks and slings.",
+      "longDescription": "A pack of two lightweight wiregate carabiners for your rack, slings and gear loops. Wire gates resist freezing and gate flutter.",
+      "features": ["Wire gate", "Keylock nose", "Sold as a pair"],
+      "image": "assets/products/CARAB-WIRE.svg", "rating": 4.5, "reviewCount": 58,
+      "searchKeywords": ["carabiner", "biner", "wiregate", "non-locking", "rack"],
+      "relatedSkus": ["CARAB-HMS", "WEB-TUBE", "NUT-SET"]
+    },
+
+    {
+      "sku": "QUICKDRAW-6", "name": "Sport Quickdraw 6 Pack", "category": "protection", "subcategory": "Quickdraws", "brandLine": "Crux Core",
+      "price": 96.00, "variants": [ { "label": "6 pack", "stock": 22 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "gym"],
+      "specs": { "Pack": "6 draws", "Dogbone": "12 cm", "Weight": "98 g each", "Gates": "Wire top, keylock bottom" },
+      "shortDescription": "Six ready-to-climb sport draws on a 12 cm dogbone.",
+      "longDescription": "Six quickdraws with wire-gate top biners, keylock bottom biners and a rubber keeper. Everything you need to start leading sport routes.",
+      "features": ["12 cm dogbone", "Rubber keeper on the bottom biner", "Light and compact"],
+      "image": "assets/products/QUICKDRAW-6.svg", "rating": 4.7, "reviewCount": 143,
+      "searchKeywords": ["quickdraw", "draws", "sport draws", "express", "sport rack"],
+      "relatedSkus": ["QUICKDRAW-12", "ROPE-60", "AUTOBLOCK"]
+    },
+    {
+      "sku": "QUICKDRAW-12", "name": "Sport Quickdraw 12 Pack", "category": "protection", "subcategory": "Quickdraws", "brandLine": "Crux Core",
+      "price": 179.00, "variants": [ { "label": "12 pack", "stock": 11 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport"],
+      "specs": { "Pack": "12 draws", "Dogbone": "12 cm", "Weight": "98 g each", "Gates": "Wire top, keylock bottom" },
+      "shortDescription": "A full project rack of twelve draws at a bulk price.",
+      "longDescription": "Twelve of the same trusted draws, priced below buying two six packs. Built for long sport routes and projecting.",
+      "features": ["Project-ready rack", "Best value per draw", "Same draws as the six pack"],
+      "image": "assets/products/QUICKDRAW-12.svg", "rating": 4.8, "reviewCount": 64,
+      "searchKeywords": ["quickdraw", "draws", "project rack", "sport draws", "12 pack"],
+      "relatedSkus": ["QUICKDRAW-6", "ROPE-60", "ROPE-DRY"]
+    },
+    {
+      "sku": "ALPINE-RACK", "name": "Alpine Rack Cam Set", "category": "protection", "subcategory": "Camming devices", "brandLine": "Crux Alpine",
+      "price": 310.00, "variants": [ { "label": "Standard", "stock": 0 } ], "restockDays": 14,
+      "safetyCritical": true, "returnable": true, "disciplines": ["trad", "alpine"],
+      "specs": { "Pieces": "6 cams", "Range": "0.4 to 3 in", "Weight": "560 g set", "Stem": "Flexible" },
+      "shortDescription": "Six light cams covering finger to fist-size cracks.",
+      "longDescription": "A six-piece cam set covering the most-used crack sizes. Light enough for alpine routes, with flexible stems for placements in awkward cracks.",
+      "features": ["Six sizes, finger to fist", "Flexible stems", "Color-coded"],
+      "image": "assets/products/ALPINE-RACK.svg", "rating": 4.9, "reviewCount": 52,
+      "searchKeywords": ["cams", "camming device", "friends", "trad rack", "protection", "rack"],
+      "relatedSkus": ["NUT-SET", "CRACK-TRAD", "WEB-TUBE"]
+    },
+    {
+      "sku": "NUT-SET", "name": "Stopper Nut Set, 10 Pieces", "category": "protection", "subcategory": "Passive protection", "brandLine": "Crux Core",
+      "price": 64.00, "variants": [ { "label": "Standard", "stock": 26 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["trad", "alpine"],
+      "specs": { "Pieces": "10", "Material": "Aluminium heads, steel cable", "Range": "Sizes 1 to 10", "Includes": "Nut key" },
+      "shortDescription": "Ten passive nuts for narrow cracks, with a nut key.",
+      "longDescription": "A classic set of ten stoppers on steel cable, covering narrow cracks that cams can't. Comes with a nut key.",
+      "features": ["Ten sizes", "Steel cable", "Nut key included"],
+      "image": "assets/products/NUT-SET.svg", "rating": 4.6, "reviewCount": 37,
+      "searchKeywords": ["nuts", "stoppers", "passive protection", "wires", "trad"],
+      "relatedSkus": ["ALPINE-RACK", "WEB-TUBE", "CARAB-WIRE"]
+    },
+
+    {
+      "sku": "TALON-MID", "name": "Talon Mid Approach Shoes", "category": "shoes", "subcategory": "Approach shoes", "brandLine": "Crux Trail",
+      "price": 145.00, "variants": [ { "label": "US 8", "stock": 3 }, { "label": "US 9", "stock": 6 }, { "label": "US 10", "stock": 9 }, { "label": "US 11", "stock": 4 }, { "label": "US 12", "stock": 0 } ], "restockDays": 9,
+      "safetyCritical": false, "returnable": true, "disciplines": ["trad", "alpine"],
+      "specs": { "Type": "Mid-cut approach", "Weight": "420 g each", "Sole": "Sticky rubber, climbing zone", "Upper": "Water-resistant suede" },
+      "shortDescription": "A mid-cut approach shoe that climbs easy scrambles.",
+      "longDescription": "A mid-cut approach shoe with a sticky rubber sole and a climbing zone at the toe. Walk in comfortably and scramble up the easy stuff.",
+      "features": ["Climbing-zone toe", "Sticky rubber sole", "Water-resistant suede upper"],
+      "image": "assets/products/TALON-MID.svg", "rating": 4.5, "reviewCount": 118,
+      "searchKeywords": ["approach shoes", "hiking", "scramble", "mid", "boots"],
+      "relatedSkus": ["CRACK-TRAD", "EDGE-LV", "HELMET-CX"]
+    },
+    {
+      "sku": "EDGE-LV", "name": "Edge Lace-Up Climbing Shoes", "category": "shoes", "subcategory": "Climbing shoes", "brandLine": "Crux Rock",
+      "price": 129.00, "variants": [ { "label": "US 6", "stock": 4 }, { "label": "US 7", "stock": 7 }, { "label": "US 8", "stock": 10 }, { "label": "US 9", "stock": 12 }, { "label": "US 10", "stock": 12 }, { "label": "US 11", "stock": 8 }, { "label": "US 12", "stock": 5 }, { "label": "US 13", "stock": 2 } ], "restockDays": 7,
+      "safetyCritical": false, "returnable": true, "disciplines": ["sport", "gym", "trad"],
+      "specs": { "Closure": "Lace-up", "Last": "Moderate downturn", "Stiffness": "Medium", "Sole": "4 mm rubber" },
+      "shortDescription": "The all-around lace-up for gym sessions and crag days.",
+      "longDescription": "A moderate-downturn lace-up that edges well and stays comfortable through a long session. A great first performance shoe.",
+      "features": ["Fine-tuned lace-up fit", "Medium stiffness", "4 mm sticky rubber"],
+      "image": "assets/products/EDGE-LV.svg", "rating": 4.6, "reviewCount": 187,
+      "searchKeywords": ["climbing shoes", "lace up", "all-around", "rock shoes", "gym shoes"],
+      "relatedSkus": ["PIVOT-SLIP", "CRACK-TRAD", "CHALK-BAG"]
+    },
+    {
+      "sku": "PIVOT-SLIP", "name": "Pivot Slipper Bouldering Shoes", "category": "shoes", "subcategory": "Climbing shoes", "brandLine": "Crux Rock",
+      "price": 139.00, "variants": [ { "label": "US 6", "stock": 0 }, { "label": "US 7", "stock": 3 }, { "label": "US 8", "stock": 6 }, { "label": "US 9", "stock": 8 }, { "label": "US 10", "stock": 8 }, { "label": "US 11", "stock": 5 }, { "label": "US 12", "stock": 2 }, { "label": "US 13", "stock": 0 } ], "restockDays": 12,
+      "safetyCritical": false, "returnable": true, "disciplines": ["boulder", "gym"],
+      "specs": { "Closure": "Slipper with strap", "Last": "Aggressive downturn", "Stiffness": "Soft", "Sole": "3.5 mm rubber" },
+      "shortDescription": "Soft, sensitive slipper for steep boulder problems.",
+      "longDescription": "An aggressive downturn and a soft sole make this slipper sensitive on smears and heel hooks. Built for boulders and the steepest gym walls.",
+      "features": ["Aggressive downturn", "Sensitive soft sole", "Easy on and off"],
+      "image": "assets/products/PIVOT-SLIP.svg", "rating": 4.7, "reviewCount": 95,
+      "searchKeywords": ["bouldering shoes", "slipper", "soft shoes", "downturned", "climbing shoes"],
+      "relatedSkus": ["EDGE-LV", "BOULDER-PRO", "CHALK-BAG"]
+    },
+    {
+      "sku": "CRACK-TRAD", "name": "Granite Crack Trad Shoes", "category": "shoes", "subcategory": "Climbing shoes", "brandLine": "Crux Rock",
+      "price": 149.00, "variants": [ { "label": "US 7", "stock": 2 }, { "label": "US 8", "stock": 5 }, { "label": "US 9", "stock": 7 }, { "label": "US 10", "stock": 9 }, { "label": "US 11", "stock": 6 }, { "label": "US 12", "stock": 3 }, { "label": "US 13", "stock": 1 } ], "restockDays": 10,
+      "safetyCritical": false, "returnable": true, "disciplines": ["trad", "alpine"],
+      "specs": { "Closure": "Lace-up", "Last": "Flat", "Stiffness": "Stiff", "Sole": "5 mm rubber" },
+      "shortDescription": "Stiff, flat-lasted shoe for all-day comfort in cracks.",
+      "longDescription": "A flat last and a stiff midsole make long multi-pitch days and hand-jam cracks far easier on your feet.",
+      "features": ["Flat last for all-day wear", "Stiff midsole", "Padded ankle and toe"],
+      "image": "assets/products/CRACK-TRAD.svg", "rating": 4.6, "reviewCount": 63,
+      "searchKeywords": ["trad shoes", "crack shoes", "comfortable", "multi-pitch", "climbing shoes"],
+      "relatedSkus": ["EDGE-LV", "ALPINE-RACK", "TALON-MID"]
+    },
+
+    {
+      "sku": "VERTEX-LT", "name": "Vertex LT Harness", "category": "harnesses", "subcategory": "All-around harnesses", "brandLine": "Crux Rock",
+      "price": 89.50, "variants": [ { "label": "S", "stock": 4 }, { "label": "M", "stock": 0 }, { "label": "L", "stock": 11 }, { "label": "XL", "stock": 2 } ], "restockDays": 6,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "trad", "gym"],
+      "specs": { "Gear loops": "4", "Weight": "340 g (M)", "Leg loops": "Adjustable", "Standard": "EN 12277" },
+      "shortDescription": "A light, adjustable harness that works for every kind of climbing.",
+      "longDescription": "A lightweight, comfortable harness with four gear loops and adjustable leg loops. The one-harness-fits-most choice for gym, sport and trad.",
+      "features": ["Four gear loops", "Adjustable leg loops", "Breathable padding"],
+      "image": "assets/products/VERTEX-LT.svg", "rating": 4.7, "reviewCount": 204,
+      "searchKeywords": ["harness", "climbing harness", "sit harness", "all-around harness"],
+      "relatedSkus": ["GYM-CINDER", "SUMMIT-ALP", "AUTOBLOCK"]
+    },
+    {
+      "sku": "GYM-CINDER", "name": "Cinder Gym Harness", "category": "harnesses", "subcategory": "Gym harnesses", "brandLine": "Crux Core",
+      "price": 64.95, "variants": [ { "label": "S", "stock": 12 }, { "label": "M", "stock": 15 }, { "label": "L", "stock": 9 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["gym", "sport"],
+      "specs": { "Gear loops": "2", "Weight": "380 g (M)", "Leg loops": "Fixed", "Standard": "EN 12277" },
+      "shortDescription": "A simple, comfortable entry-level harness for the gym.",
+      "longDescription": "An easy-fitting harness for gym climbers and beginners. Fixed leg loops make it quick to put on, with two gear loops for draws.",
+      "features": ["Quick to put on", "Two gear loops", "Great value"],
+      "image": "assets/products/GYM-CINDER.svg", "rating": 4.4, "reviewCount": 156,
+      "searchKeywords": ["harness", "gym harness", "beginner harness", "entry level"],
+      "relatedSkus": ["VERTEX-LT", "AUTOBLOCK", "EDGE-LV"]
+    },
+    {
+      "sku": "SUMMIT-ALP", "name": "Summit Alpine Harness", "category": "harnesses", "subcategory": "Alpine harnesses", "brandLine": "Crux Alpine",
+      "price": 119.00, "variants": [ { "label": "M", "stock": 7 }, { "label": "L", "stock": 5 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["alpine", "trad"],
+      "specs": { "Gear loops": "4", "Weight": "290 g (M)", "Leg loops": "Drop-seat, adjustable", "Standard": "EN 12277" },
+      "shortDescription": "A super-light harness that fits over bulky layers.",
+      "longDescription": "Stripped-down, light and easy to step into with crampons on. Fits over winter layers and packs down small.",
+      "features": ["Fits over bulky layers", "Step in with crampons", "Packs small"],
+      "image": "assets/products/SUMMIT-ALP.svg", "rating": 4.8, "reviewCount": 48,
+      "searchKeywords": ["harness", "alpine harness", "glacier", "lightweight harness"],
+      "relatedSkus": ["VERTEX-LT", "ROPE-DRY", "BELAY-JKT"]
+    },
+    {
+      "sku": "WALL-HAUL", "name": "Big Wall Harness", "category": "harnesses", "subcategory": "Big wall harnesses", "brandLine": "Crux Alpine",
+      "price": 159.00, "variants": [ { "label": "M", "stock": 4 }, { "label": "L", "stock": 6 }, { "label": "XL", "stock": 3 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["trad", "alpine"],
+      "specs": { "Gear loops": "6", "Weight": "560 g (L)", "Padding": "Wide, structured", "Standard": "EN 12277" },
+      "shortDescription": "A heavily padded harness for long hanging belays.",
+      "longDescription": "Wide padding, six gear loops and a haul loop make this the harness for multi-day walls and hanging belays.",
+      "features": ["Wide, structured padding", "Six gear loops", "Haul loop"],
+      "image": "assets/products/WALL-HAUL.svg", "rating": 4.7, "reviewCount": 29,
+      "searchKeywords": ["harness", "big wall", "padded harness", "multi-pitch"],
+      "relatedSkus": ["STATIC-10", "SUMMIT-ALP", "ALPINE-RACK"]
+    },
+
+    {
+      "sku": "HELMET-CX", "name": "Crux Summit Helmet", "category": "other-gear", "subcategory": "Helmets", "brandLine": "Crux Core",
+      "price": 79.95, "variants": [ { "label": "S/M", "stock": 14 }, { "label": "M/L", "stock": 9 } ], "restockDays": 0,
+      "safetyCritical": true, "returnable": true, "disciplines": ["sport", "trad", "alpine", "gym"],
+      "specs": { "Construction": "Foam with hard shell", "Weight": "230 g", "Vents": "12", "Standard": "EN 12492" },
+      "shortDescription": "A light, ventilated helmet with an adjustable fit.",
+      "longDescription": "A foam helmet with a hard shell that protects from falling rock and from head impacts. Ventilated and light enough to forget you are wearing it.",
+      "features": ["Hard-shell protection", "12 vents", "Headlamp clips"],
+      "image": "assets/products/HELMET-CX.svg", "rating": 4.7, "reviewCount": 177,
+      "searchKeywords": ["helmet", "head protection", "lid"],
+      "relatedSkus": ["VERTEX-LT", "ROPE-60", "BELAY-JKT"]
+    },
+    {
+      "sku": "CHALK-BAG", "name": "Crux Chalk Bag", "category": "other-gear", "subcategory": "Chalk", "brandLine": "Crux Core",
+      "price": 24.00, "variants": [ { "label": "Standard", "stock": 60 } ], "restockDays": 0,
+      "safetyCritical": false, "returnable": true, "disciplines": ["sport", "boulder", "gym", "trad"],
+      "specs": { "Closure": "Drawcord", "Lining": "Fleece", "Belt": "Included", "Brush loop": "Yes" },
+      "shortDescription": "A fleece-lined bag with a belt and brush loop.",
+      "longDescription": "A wide-mouth chalk bag with a soft fleece lining, drawcord closure and an adjustable belt. Hand-drawn Crux print on the back.",
+      "features": ["Fleece lining", "Brush loop", "Adjustable belt"],
+      "image": "assets/products/CHALK-BAG.svg", "rating": 4.6, "reviewCount": 231,
+      "searchKeywords": ["chalk bag", "chalk", "bag"],
+      "relatedSkus": ["PIVOT-SLIP", "EDGE-LV", "BOULDER-PRO"]
+    },
+    {
+      "sku": "BOULDER-PRO", "name": "Boulder Pro Crash Pad", "category": "other-gear", "subcategory": "Crash pads", "brandLine": "Crux Rock",
+      "price": 259.00, "variants": [ { "label": "Standard", "stock": 2 } ], "restockDays": 10,
+      "safetyCritical": false, "returnable": true, "disciplines": ["boulder"],
+      "specs": { "Size": "48 x 36 in (open)", "Thickness": "4 in", "Weight": "14 lb", "Fold": "Taco" },
+      "shortDescription": "A thick taco-fold pad for outdoor bouldering.",
+      "longDescription": "Dual-density foam, a taco fold and padded shoulder straps make this a dependable pad for outdoor sessions.",
+      "features": ["Dual-density foam", "Taco fold with closure", "Padded shoulder straps"],
+      "image": "assets/products/BOULDER-PRO.svg", "rating": 4.8, "reviewCount": 74,
+      "searchKeywords": ["crash pad", "bouldering pad", "pad", "boulder"],
+      "relatedSkus": ["PIVOT-SLIP", "CHALK-BAG", "BELAY-JKT"]
+    },
+    {
+      "sku": "BELAY-JKT", "name": "Insulated Belay Jacket", "category": "other-gear", "subcategory": "Apparel", "brandLine": "Crux Alpine",
+      "price": 175.00, "variants": [ { "label": "S", "stock": 5 }, { "label": "M", "stock": 8 }, { "label": "L", "stock": 6 }, { "label": "XL", "stock": 1 } ], "restockDays": 8,
+      "safetyCritical": false, "returnable": true, "disciplines": ["sport", "trad", "alpine", "boulder"],
+      "specs": { "Insulation": "Synthetic, 60 g", "Weight": "480 g (M)", "Fit": "Over harness", "Shell": "Water-resistant" },
+      "shortDescription": "A big, warm synthetic jacket for long belays.",
+      "longDescription": "Warm when wet, roomy enough to go over a harness and packable enough for your bag. The jacket you put on when you stop climbing.",
+      "features": ["Synthetic insulation", "Fits over a harness", "Water-resistant shell"],
+      "image": "assets/products/BELAY-JKT.svg", "rating": 4.7, "reviewCount": 109,
+      "searchKeywords": ["jacket", "belay jacket", "puffy", "insulated", "coat"],
+      "relatedSkus": ["SUMMIT-ALP", "HELMET-CX", "CHALK-BAG"]
+    }
+  ]
+}
