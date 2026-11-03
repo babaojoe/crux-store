@@ -1,6 +1,6 @@
 // App shell for the Crux storefront: hash router, header, footer, cart drawer, toasts and the Beta page-context handoff.
 // It is a single page on purpose: moving between pages never reloads, so a live call with Beta stays connected.
-import { $, $$, esc, money, loadData, D, cat, getUser, getCart, cartCount, totals, cartLines } from "./lib.js";
+import { $, $$, esc, money, loadData, D, cat, getUser, getCart, cartCount, totals, cartLines, stockOf, findOrder, STATUS } from "./lib.js";
 import * as V from "./views.js";
 
 const parse = () => {
@@ -57,20 +57,54 @@ let toastTimer;
 function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 3200); }
 
 // ---------- Beta page context ----------
+// The widget's sendInfo text reaches the flow as an utterance, so the context rides in the text behind a [[ctx]] marker.
+// The flow stores the summary silently and does not reply; Beta then knows what the caller is looking at.
+function summarize(ctx) {
+  const u = getUser(), parts = [];
+  const p = ctx.sku && D.products[ctx.sku];
+  if (ctx.page === "product" && p) {
+    const st = stockOf(p), out = p.variants.filter((v) => v.stock === 0).map((v) => v.label);
+    parts.push(`Product page for ${p.name} (${cat(p.category)?.name || p.category}), ${money(p.price)}, ${st.label}${out.length && st.state !== "out" ? ", sizes out: " + out.join(", ") : ""}`);
+  } else if (ctx.page === "shop") {
+    const c = ctx.category && cat(ctx.category);
+    parts.push("Shop page" + (c ? " showing " + c.name : "") + (ctx.search ? ` searching for ${ctx.search}` : ""));
+  } else if (ctx.page === "orders" && ctx.orderId) {
+    const o = findOrder(ctx.orderId, u);
+    parts.push(`Order detail page for order ${ctx.orderId}` + (o ? `, status ${STATUS[o.status] || o.status}, items ${o.lines.map((l) => D.products[l.sku]?.name || l.sku).join(", ")}` : ""));
+  } else if (ctx.page === "orders") parts.push("Order history page");
+  else if (ctx.page === "cart") parts.push("Cart page");
+  else if (ctx.page === "checkout") parts.push("Checkout page");
+  else if (ctx.page === "account") parts.push(u ? "Account page" : "Sign in page");
+  else if (ctx.page === "support") parts.push("Support page");
+  else if (ctx.page === "home") parts.push("Home page");
+  else parts.push(`${ctx.page} page`);
+  const lines = cartLines();
+  parts.push(lines.length ? "Cart holds " + lines.map((l) => `${l.qty} ${l.p.name} ${l.variant}`).join(", ") : "Cart is empty");
+  parts.push(u ? `Signed in on the site as ${u.firstName}` : "Not signed in on the site");
+  return parts.join(". ") + ".";
+}
 function context() {
   const r = parse(), u = getUser(), page = r.parts[0] || "home", ctx = { page, route: location.hash || "#/" };
   if (page === "product") ctx.sku = r.parts[1];
   if (page === "orders" && r.parts[1]) ctx.orderId = r.parts[1];
   if (page === "shop" && r.query.get("cat")) ctx.category = r.query.get("cat");
+  if (page === "shop" && r.query.get("q")) ctx.search = r.query.get("q");
   const cart = getCart(); if (cart.length) ctx.cart = cart.map((l) => `${l.sku} ${l.variant} x${l.qty}`);
   ctx.signedInAs = u ? u.firstName : null;
+  ctx.summary = summarize(ctx);
   return ctx;
 }
-let sendTimer;
+let sendTimer, lastSent = "";
 function sendContext(extra) {
   clearTimeout(sendTimer);
   sendTimer = setTimeout(() => {
-    try { if (window.CruxBeta && window.CruxBeta.state.session) { const c = { ...context(), ...(extra ? { focus: extra } : {}) }; window.CruxBeta.sendInfo("page_context", c); } } catch { /* call not ready, ignore */ }
+    try {
+      if (window.CruxBeta && window.CruxBeta.state.session) {
+        const c = context(), msg = "[[ctx]] " + JSON.stringify({ summary: c.summary, focus: extra || "" });
+        if (msg === lastSent) return;
+        lastSent = msg; window.CruxBeta.sendInfo(msg, c);
+      }
+    } catch { /* call not ready, ignore */ }
   }, 400);
 }
 
@@ -111,7 +145,7 @@ async function boot() {
   const hint = $("#hint");
   try { if (sessionStorage.getItem("crux.hint") === "0") hint.hidden = true; } catch { /* ignore */ }
   $("#hint-close").addEventListener("click", () => { hint.hidden = true; try { sessionStorage.setItem("crux.hint", "0"); } catch { /* ignore */ } });
-  if (window.CruxBeta) window.CruxBeta.onEvent((type) => { if (type === "session") { hint.hidden = true; sendContext("call_started"); } if (type === "ended") { toast("Call ended. Tap the call button to talk to Beta again."); } });
+  if (window.CruxBeta) window.CruxBeta.onEvent((type) => { if (type === "session") { hint.hidden = true; sendContext(); } if (type === "ended") { lastSent = ""; toast("Call ended. Tap the call button to talk to Beta again."); } });
   window.addEventListener("hashchange", render);
   document.addEventListener("route:refresh", render);
   render();
