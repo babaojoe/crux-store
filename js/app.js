@@ -100,7 +100,7 @@ function sendContext(extra) {
   sendTimer = setTimeout(() => {
     try {
       if (window.CruxBeta && window.CruxBeta.state.session) {
-        const c = context(), msg = "[[ctx]] " + JSON.stringify({ summary: c.summary, focus: extra || "" });
+        const c = context(), plain = (s) => String(s || "").replace(/["{}\\~]/g, " "), msg = "[[ctx]] " + plain(c.summary) + " ~~ " + plain(extra);
         if (msg === lastSent) return;
         lastSent = msg; window.CruxBeta.sendInfo(msg, c);
       }
